@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main(void)
+int main(int argc,char **argv)
 {
-    printf("Hello, World!\n");
-    return 0;
+
+
+    lsh_loop();
+    return EXIT_SUCCESS;
+}
+
+void lsh_loop(void) {
+
 }
